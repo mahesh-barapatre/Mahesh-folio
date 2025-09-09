@@ -26,8 +26,8 @@ const Newsletter = () => {
             className="w-16 h-16 rounded-full object-cover border-2 border-border"
           />
           <div className="ml-4 text-left">
-            <h3 className="font-semibold text-foreground">Adarsh Singh</h3>
-            <p className="text-sm text-muted-foreground">@adarshsingh9540</p>
+            <h3 className="font-semibold text-foreground">Mahesh Barapatre</h3>
+            <p className="text-sm text-muted-foreground">@doit_mahesh</p>
           </div>
         </div>
 

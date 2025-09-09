@@ -15,94 +15,40 @@ interface Project {
 
 const projects: Project[] = [
   {
-    title: "Taskra - Discord AI Assistant",
+    title: "Pixora – AI-Powered Visual Creator",
     description:
-      "A smart Discord AI assistant that helps with everyday tasks — from setting reminders, creating Google Meet links to finding who's calling, suggesting music and many more tasks.",
-    image:
-      "https://res.cloudinary.com/dzvdh7yez/image/upload/v1757358258/Let_s_Connect_klra4v.png",
-
-    githubUrl:
-      "https://discord.com/oauth2/authorize?client_id=1396860878644707519&permissions=2147567616&integration_type=0&scope=bot+applications.commands",
-    DemoVideo:
-      "https://www.loom.com/share/e0fda0dbaad246f68cad1d6d1fe6c494?sid=017e98fc-fd72-4781-a3be-ba143425fd76",
+      "An AI-powered web app that generates high-quality visuals in 5+ artistic styles. Integrated dual AI engines (OpenAI & Gemini) for diverse outputs, serving 100+ generations during testing with export-ready, high-resolution results.",
+    image: "https://pixora-tau.vercel.app/og-image.png", // placeholder, replace with actual image if available
+    githubUrl: "https://github.com/mahesh-barapatre/Pixora",
+    DemoVideo: "https://pixora-tau.vercel.app/",
+    featured: true,
+  },
+  {
+    title: "Interview-Saathi.AI",
+    description:
+      "AI-powered mock interview app that conducted 1,000+ practice interviews across different roles and technologies. Integrated Gemini API, facial expression analysis, and PostgreSQL to provide real-time, personalized feedback and improve preparation by 50%.",
+    image: "https://interview-saathi-nine.vercel.app/og-image.png", // placeholder
+    githubUrl: "https://github.com/mahesh-barapatre/Interview-Saathi",
+    DemoVideo: "https://interview-saathi-nine.vercel.app/",
+    featured: true,
+  },
+  {
+    title: "Sarthi",
+    description:
+      "A peer-to-peer discussion platform with video conferencing, collaborative whiteboard, and chat. Powered by WebRTC and Socket.io for <100 ms latency. Supported 500+ interactive sessions monthly, improving collaboration by 40%.",
+    image: "https://sarthi2-0.vercel.app/og-image.png", // placeholder
+    githubUrl: "https://github.com/mahesh-barapatre/Sarthi2.0",
+    DemoVideo: "https://sarthi2-0.vercel.app/",
     featured: false,
   },
   {
-    title: "SmartSummary - Chrome Extension",
+    title: "Lumina – AI Discord Assistant",
     description:
-      "A Chrome extension powered by LLMs that quickly summarizes long articles into concise brief summaries, detailed versions, or bullet points for easy reading.",
-    image:
-      "https://res.cloudinary.com/dzvdh7yez/image/upload/v1757358325/icon_vjqyxj.png",
-    DemoVideo:
-      "https://www.loom.com/share/6daf5310fc944dd5a5c3e8c902fe1ec6?sid=7025386a-2935-4d9e-8b17-1eceacb9c23c",
-    githubUrl: "https://github.com/AdarshSingh9540/AI_Summarizer_Extension",
+      "An AI-powered Discord assistant with 5+ features, used in active servers. Integrated Gemini API for ~90% command accuracy, automated tasks with Google APIs (Calendar, Spotify, Places), and handled 20+ weekly tasks.",
+    image: "https://github.com/mahesh-barapatre/Lumina-AI/raw/main/demo.png", // placeholder
+    githubUrl: "https://github.com/mahesh-barapatre/Lumina-AI",
+    DemoVideo: "", // no live demo link found in resume
     featured: false,
-  },
-  {
-    title: "GitChat",
-    description:
-      "Your ultimate GitHub assistant! Seamlessly chat with your GitHub repository, explore commits, pull requests, issues, and more—all in one intuitive platform.",
-    image:
-      "https://res.cloudinary.com/dzvdh7yez/image/upload/v1757354524/Screenshot_2025-09-08_233132_lephs7.png",
-    liveUrl: "https://chat-git.vercel.app/",
-    githubUrl: "https://github.com/AdarshSingh9540/githubChat",
-    featured: true,
-  },
-  {
-    title: "IndiBlog",
-    description:
-      "A blogging platform using React for frontend rendering and Express.js for backend API development. Managed database operations with PostgreSQL integrated via Prisma ORM.",
-    image:
-      "https://res.cloudinary.com/dzvdh7yez/image/upload/v1757354536/Screenshot_2025-09-08_233203_pcd2kf.png",
-    liveUrl: "https://indiblog.vercel.app",
-    githubUrl: "https://github.com/AdarshSingh9540/Medium-client",
-    featured: true,
-  },
-  {
-    title: "BrainStrom",
-    description:
-      "Developed with Next.js and Gemini AI, creating AI-driven quizzes that improved learning with real-time feedback, enhanced user engagement, and reduced error rates.",
-    image:
-      "https://res.cloudinary.com/dzvdh7yez/image/upload/v1757355143/Screenshot_2025-09-08_234210_eespx3.png",
-    liveUrl: "https://brainstrom-production.up.railway.app/",
-    githubUrl: "https://github.com/AdarshSingh9540/BrainStrom",
-    featured: true,
-  },
-  {
-    title: "CSI Innowave",
-    description:
-      "Built the official website for CSI Innowave, Technical Society. Developed using Next.js, Tailwind and backend using Node, Express, and MongoDB.",
-    image:
-      "https://res.cloudinary.com/dzvdh7yez/image/upload/v1757354580/Screenshot_2025-09-08_233245_nx9vsh.png",
-    liveUrl: "https://www.csiinnowave.com/",
-    githubUrl: "https://github.com/AdarshSingh9540/csi-v3",
-  },
-  {
-    title: "MovieFlix",
-    description:
-      "MovieFlix replicates an OTT platform with Gemini AI for personalized movie recommendations. Built with React, Firebase, and Redux.",
-    image:
-      "https://res.cloudinary.com/dzvdh7yez/image/upload/v1757354689/Screenshot_2025-09-08_233347_m1sjg2.png",
-    liveUrl: "https://movieflix-six-psi.vercel.app/",
-    githubUrl: "https://github.com/AdarshSingh9540/movieflix",
-  },
-  {
-    title: "FoodADDa",
-    description:
-      "A food ordering app UI that fetches real-time restaurant data from Swiggy's API. Using Redux for cart functionality and optimized for mobile.",
-    image:
-      "https://res.cloudinary.com/dzvdh7yez/image/upload/v1757354763/Screenshot_2025-09-08_233546_ncbj1a.png",
-    liveUrl: "https://foodadda-phi.vercel.app/",
-    githubUrl: "https://github.com/AdarshSingh9540/foodADDa",
-  },
-  {
-    title: "No Tube",
-    description:
-      "A YouTube  built with React and Node.js, featuring video uploads, comments, and real-time chat.",
-    image:
-      "https://res.cloudinary.com/dzvdh7yez/image/upload/v1757355058/Screenshot_2025-09-08_233655_uxklwb.png",
-    liveUrl: "https://you-tube-jade.vercel.app/",
-    githubUrl: "https://github.com/AdarshSingh9540/YouTube",
   },
 ];
 

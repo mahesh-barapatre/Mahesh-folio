@@ -22,13 +22,13 @@ export function ThemeToggle() {
         size="sm"
         onClick={() =>
           window.open(
-            "https://drive.google.com/file/d/1aRbyJQukD2fjGQykCrTwA4G9d0YQvmUR/view",
+            "https://drive.google.com/file/d/1z2FXA49yGV9ahG74g2LPCca5lezHb-or/view?usp=sharing",
             "_blank"
           )
         }
         className="fixed  top-6 right-24 z-50 bg-background/80 backdrop-blur-sm border-2 border-gray-800"
       >
-     Resume   <LiaDownloadSolid /> 
+        Resume <LiaDownloadSolid />
       </Button>
       <Button
         variant="outline"

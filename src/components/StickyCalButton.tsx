@@ -15,7 +15,7 @@ const StickyCalButton = () => {
             className="hover:text-primary hover:bg-primary/10"
             onClick={() =>
               window.open(
-                "https://www.linkedin.com/in/adarsh-singh-183357262",
+                "https://www.linkedin.com/in/mahesh-barapatre-a93731225/",
                 "_blank"
               )
             }
@@ -27,7 +27,7 @@ const StickyCalButton = () => {
             size="icon"
             className="hover:text-primary hover:bg-primary/10"
             onClick={() =>
-              window.open("https://github.com/AdarshSingh9540", "_blank")
+              window.open("https://github.com/mahesh-barapatre", "_blank")
             }
           >
             <GrGithub className="w-5 h-5" />
@@ -36,7 +36,7 @@ const StickyCalButton = () => {
             variant="ghost"
             size="icon"
             className="hover:text-primary hover:bg-primary/10"
-            onClick={() => window.open("https://x.com/adarsh9540", "_blank")}
+            onClick={() => window.open("https://doit_mahesh", "_blank")}
           >
             <BsTwitterX className="w-5 h-5" />
           </Button>
@@ -57,7 +57,7 @@ const StickyCalButton = () => {
             variant="ghost"
             size="icon"
             className="hover:text-primary hover:bg-primary/10"
-            onClick={() => window.open("mailto:singhadarsh9540@gmail.com")}
+            onClick={() => window.open("mailto:maheshbarapatre14@gmail.com")}
           >
             <Mail className="w-5 h-5" />
           </Button>
@@ -67,7 +67,7 @@ const StickyCalButton = () => {
             className="hover:text-primary hover:bg-primary/10"
             onClick={() =>
               window.open(
-                "https://drive.google.com/file/d/1aRbyJQukD2fjGQykCrTwA4G9d0YQvmUR/view",
+                "https://drive.google.com/file/d/1z2FXA49yGV9ahG74g2LPCca5lezHb-or/view?usp=sharing",
                 "_blank"
               )
             }

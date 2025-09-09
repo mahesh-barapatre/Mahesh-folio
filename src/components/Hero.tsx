@@ -25,14 +25,14 @@ const Hero = () => {
             <p className="text-muted-foreground text-lg mb-2">Namaste(); I'm</p>
 
             <h1 className="text-4xl lg:text-6xl font-bold text-foreground mb-4">
-              Adarsh Singh
+              Mahesh Barapatre
             </h1>
             <div className="space-y-2">
               <p className="text-xl text-muted-foreground">Software Engineer</p>
               <div className="flex items-center gap-2 justify-center lg:justify-start">
                 <TfiEmail className="w-4 h-4 text-muted-foreground" />
                 <p className="text-muted-foreground">
-                  singhadarsh9540@gmail.com
+                  maheshbarapatre14@gmail.com
                 </p>
               </div>
               <div className="flex items-center gap-2 justify-center lg:justify-start">
@@ -49,7 +49,7 @@ const Hero = () => {
             <h1 className="font-bold text-xl">About Me</h1>
           </div>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 ">
-            I'm Adarsh Singh, a software engineer with{" "}
+            I'm Mahesh Barapatre, a software engineer with{" "}
             <span className="text-lg font-medium text-red-500"> 1.4+</span>{" "}
             years of experience who loves building web applications using both
             frontend and backend technologies. Currently, I focus on creating

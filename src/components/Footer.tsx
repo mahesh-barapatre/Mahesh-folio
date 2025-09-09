@@ -23,7 +23,7 @@ const Footer = () => {
             variant="outline"
             size="icon"
             onClick={() =>
-              window.open("https://github.com/AdarshSingh9540", "_blank")
+              window.open("https://github.com/mahesh-barapatre", "_blank")
             }
             className="hover:text-primary hover:border-primary"
           >
@@ -34,7 +34,7 @@ const Footer = () => {
             size="icon"
             onClick={() =>
               window.open(
-                "https://www.linkedin.com/in/adarsh-singh-183357262",
+                "https://www.linkedin.com/in/mahesh-barapatre-a93731225/",
                 "_blank"
               )
             }
@@ -42,7 +42,7 @@ const Footer = () => {
           >
             <Linkedin className="w-5 h-5" />
           </Button>
-          <Button
+          {/* <Button
             variant="outline"
             size="icon"
             onClick={() =>
@@ -54,11 +54,11 @@ const Footer = () => {
             className="hover:text-primary hover:border-primary"
           >
             <Instagram className="w-5 h-5" />
-          </Button>
+          </Button> */}
           <Button
             variant="outline"
             size="icon"
-            onClick={() => window.open("mailto:  singhadarsh9540@gmail.com")}
+            onClick={() => window.open("mailto:maheshbarapatre14@gmail.com")}
             className="hover:text-primary hover:border-primary"
           >
             <Mail className="w-5 h-5" />
@@ -78,7 +78,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="pt-8 border-t border-border/30">
           <p className="text-sm text-muted-foreground">
-            Design & Built by Adarsh Singh © 2024
+            Design & Built by Mahesh Barapatre © 2024
           </p>
         </div>
       </div>

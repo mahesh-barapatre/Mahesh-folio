@@ -2,31 +2,47 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Languages",
-      skills: ["JavaScript", "TypeScript", "Java"],
+      skills: ["JavaScript", "TypeScript", "Python", "SQL", "HTML/CSS", "C++"],
     },
     {
       title: "Frontend",
-      skills: ["React", "Next.js", "Tailwind CSS", "Shadcn", "Tanstack Query"],
+      skills: ["React.js", "Next.js"],
     },
     {
       title: "Backend",
-      skills: ["Express.js", "Node.js",],
+      skills: ["Node.js", "Express.js"],
     },
     {
       title: "Databases",
+      skills: ["MongoDB", "PostgreSQL", "MySQL", "Firestore"],
+    },
+    {
+      title: "DevOps & Tools",
+      skills: ["Git", "Docker", "Postman", "VS Code"],
+    },
+    {
+      title: "AI & APIs",
       skills: [
-        "MongoDB",
-        "PostgreSQL",
+        "Gemini API",
+        "OpenAI",
+        "Google APIs",
+        "Vapi AI",
+        "MediaPipe",
+        "Face-API.js",
       ],
     },
     {
-      title: "DevOps & Cloud",
-      skills: ["Docker", "AWS"],
-    },
-    
-    {
       title: "Others",
-      skills: ["Git", "REST", "Prisma", "Mongoose", "WebSockets" ,"Payment Gateways"],
+      skills: [
+        "Redux",
+        "OAuth",
+        "WebRTC",
+        "Socket.io",
+        "REST",
+        "Problem-solving",
+        "Teamwork",
+        "Adaptability",
+      ],
     },
   ];
 
@@ -34,9 +50,13 @@ const Skills = () => {
     <section className="py-20 px-6">
       <div className="max-w-4xl mx-auto">
         <div className="mb-12 animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold mb-2 gradient-text text-left">Skills</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-2 gradient-text text-left">
+            Skills
+          </h2>
           <p className="text-lg text-muted-foreground max-w-2xl text-left">
-            Here are some of the skills I have acquired over the years of my journey in the tech industry. I am always looking to learn more and improve my skillset.
+            Here are some of the skills I have acquired over the years of my
+            journey in the tech industry. I am always looking to learn more and
+            improve my skillset.
           </p>
         </div>
 
@@ -47,7 +67,9 @@ const Skills = () => {
               className="flex flex-wrap items-center mb-2 animate-fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <span className="text-lg font-semibold text-muted-foreground mr-2 min-w-[120px]">{index + 1}. {category.title}</span>
+              <span className="text-lg font-semibold text-muted-foreground mr-2 min-w-[120px]">
+                {index + 1}. {category.title}
+              </span>
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
                   <span
