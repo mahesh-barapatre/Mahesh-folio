@@ -24,7 +24,14 @@ const experiences: ExperienceItem[] = [
       "Optimized components, improving load times by 20% across devices.",
       "Implemented Redux, enhancing performance by 10% and reducing inconsistencies.",
     ],
-    skills: ["React.js", "Redux", "JavaScript", "Next.js"],
+    skills: [
+      "React.js",
+      "Redux",
+      "JavaScript",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+    ],
     website: "", // no official site listed
     logo: "", // you can add a logo if available
   },
@@ -43,7 +50,8 @@ const experiences: ExperienceItem[] = [
       "Google Apps Script",
       "Node.js",
       "Express.js",
-      "Deployment",
+      "Vercel",
+      "MongoDB",
     ],
     website: "", // you can add portfolio link here if you want
     logo: "", // you can add a generic freelance logo

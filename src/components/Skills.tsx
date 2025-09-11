@@ -21,28 +21,8 @@ const Skills = () => {
       skills: ["Git", "Docker", "Postman", "VS Code"],
     },
     {
-      title: "AI & APIs",
-      skills: [
-        "Gemini API",
-        "OpenAI",
-        "Google APIs",
-        "Vapi AI",
-        "MediaPipe",
-        "Face-API.js",
-      ],
-    },
-    {
       title: "Others",
-      skills: [
-        "Redux",
-        "OAuth",
-        "WebRTC",
-        "Socket.io",
-        "REST",
-        "Problem-solving",
-        "Teamwork",
-        "Adaptability",
-      ],
+      skills: ["Redux", "OAuth", "WebRTC", "Socket.io", "REST"],
     },
   ];
 
