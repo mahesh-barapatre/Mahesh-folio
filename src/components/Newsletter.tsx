@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Mail, Calendar } from "lucide-react";
 import { useState } from "react";
-import profilePhoto from "../../public/pic5.jpg";
+import profilePhoto from "../../public/profilepic.jpg";
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
@@ -40,10 +40,7 @@ const Newsletter = () => {
             variant="outline"
             className="bg-green-950 border-green-800 text-green-100 hover:bg-green-900"
             onClick={() =>
-              window.open(
-                "https://calendly.com/singhadarsh9540/30min",
-                "_blank"
-              )
+              window.open("https://cal.com/mahesh-barapatre/30min", "_blank")
             }
           >
             <Calendar className="w-4 h-4 mr-2" />

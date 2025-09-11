@@ -37,7 +37,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-2 justify-center lg:justify-start">
                 <GrLocation className="w-4 h-4 text-muted-foreground" />
-                <p className="text-muted-foreground">New Delhi, India</p>
+                <p className="text-muted-foreground">Gondia, India</p>
               </div>
             </div>
           </div>
@@ -50,8 +50,8 @@ const Hero = () => {
           </div>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 ">
             I'm Mahesh Barapatre, a software engineer with{" "}
-            <span className="text-lg font-medium text-red-500"> 1.4+</span>{" "}
-            years of experience who loves building web applications using both
+            <span className="text-lg font-medium text-red-500"> 1+</span> years
+            of experience who loves building web applications using both
             frontend and backend technologies. Currently, I focus on creating
             innovative GenAI products to solve real-world problems and enhance
             digital experiences.
@@ -60,7 +60,7 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3"
-              onClick={() => window.open("mailto:singhadarsh9540@gmail.com")}
+              onClick={() => window.open("mailto:maheshbarapatre14@gmail.com")}
             >
               <Mail className="w-5 h-5 mr-2" />
               Let's Talk!
@@ -71,10 +71,7 @@ const Hero = () => {
               variant="outline"
               className=" px-8 py-3 border-slate-700"
               onClick={() =>
-                window.open(
-                  "https://calendly.com/singhadarsh9540/30min",
-                  "_blank"
-                )
+                window.open("https://cal.com/mahesh-barapatre/30min", "_blank")
               }
             >
               <SiGooglemeet className="w-5 h-5 mr-2" />

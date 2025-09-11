@@ -18,36 +18,37 @@ const projects: Project[] = [
     title: "Pixora – AI-Powered Visual Creator",
     description:
       "An AI-powered web app that generates high-quality visuals in 5+ artistic styles. Integrated dual AI engines (OpenAI & Gemini) for diverse outputs, serving 100+ generations during testing with export-ready, high-resolution results.",
-    image: "https://pixora-tau.vercel.app/og-image.png", // placeholder, replace with actual image if available
+    image: ".../../../../public/pixora.png", // placeholder, replace with actual image if available
     githubUrl: "https://github.com/mahesh-barapatre/Pixora",
-    DemoVideo: "https://pixora-tau.vercel.app/",
+    liveUrl: "https://pixora-tau.vercel.app/",
     featured: true,
   },
   {
     title: "Interview-Saathi.AI",
     description:
-      "AI-powered mock interview app that conducted 1,000+ practice interviews across different roles and technologies. Integrated Gemini API, facial expression analysis, and PostgreSQL to provide real-time, personalized feedback and improve preparation by 50%.",
-    image: "https://interview-saathi-nine.vercel.app/og-image.png", // placeholder
+      "AI-powered mock interview app that conducted 50+ practice interviews across different roles and technologies. Integrated Gemini API, facial expression analysis, and PostgreSQL to provide real-time, personalized feedback and improve preparation by 50%.",
+    image: ".../../../../public/interview.png", // placeholder
     githubUrl: "https://github.com/mahesh-barapatre/Interview-Saathi",
-    DemoVideo: "https://interview-saathi-nine.vercel.app/",
+    liveUrl: "https://interview-saathi-nine.vercel.app/",
     featured: true,
   },
   {
     title: "Sarthi",
     description:
       "A peer-to-peer discussion platform with video conferencing, collaborative whiteboard, and chat. Powered by WebRTC and Socket.io for <100 ms latency. Supported 500+ interactive sessions monthly, improving collaboration by 40%.",
-    image: "https://sarthi2-0.vercel.app/og-image.png", // placeholder
+    image: ".../../../../public/sarthi.png", // placeholder
     githubUrl: "https://github.com/mahesh-barapatre/Sarthi2.0",
-    DemoVideo: "https://sarthi2-0.vercel.app/",
+    liveUrl: "https://sarthi2-0.vercel.app/",
     featured: false,
   },
   {
     title: "Lumina – AI Discord Assistant",
     description:
       "An AI-powered Discord assistant with 5+ features, used in active servers. Integrated Gemini API for ~90% command accuracy, automated tasks with Google APIs (Calendar, Spotify, Places), and handled 20+ weekly tasks.",
-    image: "https://github.com/mahesh-barapatre/Lumina-AI/raw/main/demo.png", // placeholder
+    image: ".../../../../public/lumina.png", // placeholder
     githubUrl: "https://github.com/mahesh-barapatre/Lumina-AI",
-    DemoVideo: "", // no live demo link found in resume
+    liveUrl:
+      "https://www.linkedin.com/posts/mahesh-barapatre-a93731225_ai-discord-nodejs-activity-7368269679133462530-d6sJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADiG488BnHMvIAgduW83EaaK-XET1gCvPVM", // no live demo link found in resume
     featured: false,
   },
 ];
@@ -116,13 +117,13 @@ const Projects = () => {
                     <Button
                       variant="outline"
                       size="sm"
-                      onClick={() => window.open(project.githubUrl, "_blank")}
+                      onClick={() => window.open(project.liveUrl, "_blank")}
                       className="flex-[2] border-slate-700"
                     >
                       {project.liveUrl ? (
-                        <div>
+                        <div className="flex">
                           <ExternalLink className="w-4 h-4" />
-                          Code
+                          LIVE
                         </div>
                       ) : (
                         <div>Integrate Locally</div>
@@ -137,23 +138,13 @@ const Projects = () => {
                       className="flex-[1] border-slate-800"
                     >
                       {project.liveUrl ? (
-                        <div>
+                        <div className="flex">
                           <Github className="w-4 h-4" />
                           Code
                         </div>
                       ) : (
                         <div>Integrate Locally</div>
                       )}
-                    </Button>
-                  )}
-                  {project.DemoVideo && (
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      onClick={() => window.open(project.DemoVideo, "_blank")}
-                      className="flex-[1] border-slate-800"
-                    >
-                      Demo Video
                     </Button>
                   )}
                 </div>
