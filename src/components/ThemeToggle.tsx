@@ -22,7 +22,7 @@ export function ThemeToggle() {
         size="sm"
         onClick={() =>
           window.open(
-            "https://drive.google.com/file/d/1z2FXA49yGV9ahG74g2LPCca5lezHb-or/view?usp=sharing",
+            "https://drive.google.com/file/d/1g1VO-AcWrIycUIFEkPCTKC3peHySp0xg/view?usp=sharing",
             "_blank"
           )
         }
