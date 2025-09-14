@@ -2,10 +2,10 @@ import { Card } from "@/components/ui/card";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
-import lumina from "../../public/lumina.jpg";
-import pixora from "../../public/pixora.jpg";
-import sarthi from "../../public/sarthi.jpg";
-import interview from "../../public/interview.jpg";
+import lumina from "/lumina.jpg";
+import pixora from "/pixora.jpg";
+import sarthi from "/sarthi.jpg";
+import interview from "/interview.jpg";
 
 interface Project {
   title: string;
