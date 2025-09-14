@@ -2,11 +2,15 @@ import { Card } from "@/components/ui/card";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github } from "lucide-react";
+import lumina from "../../public/lumina.jpg";
+import pixora from "../../public/pixora.jpg";
+import sarthi from "../../public/sarthi.jpg";
+import interview from "../../public/interview.jpg";
 
 interface Project {
   title: string;
   description: string;
-  image: string;
+  image: any;
   liveUrl?: string;
   githubUrl?: string;
   DemoVideo?: string;
@@ -18,7 +22,7 @@ const projects: Project[] = [
     title: "Pixora – AI-Powered Visual Creator",
     description:
       "An AI-powered web app that generates high-quality visuals in 5+ artistic styles. Integrated dual AI engines (OpenAI & Gemini) for diverse outputs, serving 100+ generations during testing with export-ready, high-resolution results.",
-    image: "../../public/pixora.png", // placeholder, replace with actual image if available
+    image: { lumina }, // placeholder, replace with actual image if available
     githubUrl: "https://github.com/mahesh-barapatre/Pixora",
     liveUrl: "https://pixora-tau.vercel.app/",
     featured: true,
@@ -27,7 +31,7 @@ const projects: Project[] = [
     title: "Interview-Saathi.AI",
     description:
       "AI-powered mock interview app that conducted 50+ practice interviews across different roles and technologies. Integrated Gemini API, facial expression analysis, and PostgreSQL to provide real-time, personalized feedback and improve preparation by 50%.",
-    image: "../../public/interview.png", // placeholder
+    image: { interview }, // placeholder
     githubUrl: "https://github.com/mahesh-barapatre/Interview-Saathi",
     liveUrl: "https://interview-saathi-nine.vercel.app/",
     featured: true,
@@ -36,7 +40,7 @@ const projects: Project[] = [
     title: "Sarthi",
     description:
       "A peer-to-peer discussion platform with video conferencing, collaborative whiteboard, and chat. Powered by WebRTC and Socket.io for <100 ms latency. Supported 500+ interactive sessions monthly, improving collaboration by 40%.",
-    image: "../../public/sarthi.png", // placeholder
+    image: { sarthi }, // placeholder
     githubUrl: "https://github.com/mahesh-barapatre/Sarthi2.0",
     liveUrl: "https://sarthi2-0.vercel.app/",
     featured: false,
@@ -45,7 +49,7 @@ const projects: Project[] = [
     title: "Lumina – AI Discord Assistant",
     description:
       "An AI-powered Discord assistant with 5+ features, used in active servers. Integrated Gemini API for ~90% command accuracy, automated tasks with Google APIs (Calendar, Spotify, Places), and handled 20+ weekly tasks.",
-    image: "../../public/lumina.png", // placeholder
+    image: { lumina }, // placeholder
     githubUrl: "https://github.com/mahesh-barapatre/Lumina-AI",
     liveUrl:
       "https://www.linkedin.com/posts/mahesh-barapatre-a93731225_ai-discord-nodejs-activity-7368269679133462530-d6sJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAADiG488BnHMvIAgduW83EaaK-XET1gCvPVM", // no live demo link found in resume
