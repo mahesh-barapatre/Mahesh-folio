@@ -36,7 +36,7 @@ const projects: Project[] = [
     title: "Sarthi",
     description:
       "A peer-to-peer discussion platform with video conferencing, collaborative whiteboard, and chat. Powered by WebRTC and Socket.io for <100 ms latency. Supported 500+ interactive sessions monthly, improving collaboration by 40%.",
-    image: "/sathi.jpg", // placeholder
+    image: "/sarthi.jpg", // placeholder
     githubUrl: "https://github.com/mahesh-barapatre/Sarthi2.0",
     liveUrl: "https://sarthi2-0.vercel.app/",
     featured: false,
